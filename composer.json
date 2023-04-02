@@ -12,20 +12,20 @@
     }
   ],
   "require": {
-    "php": ">= 7.3"
+    "php": ">= 7.1"
   },
   "require-dev": {
     "phing/phing": "3.0.x-dev"
   },
   "autoload": {
     "psr-4": {
-      "Phing\\Task\\Ext\\": "src/"
+      "Phing\\Task\\Ext\\Ioncube\\": ""
     }
   },
   "extra": {
     "phing-custom-taskdefs": {
-      "ioncubeencoder": "Phing\\Task\\Ext\\IoncubeEncoderTask",
-      "ioncubelicense": "Phing\\Task\\Ext\\IoncubeLicenseTask"
+      "ioncubeencoder": "Phing\\Task\\Ext\\Ioncube\\IoncubeEncoderTask",
+      "ioncubelicense": "Phing\\Task\\Ext\\Ioncube\\IoncubeLicenseTask"
     }
   }
 }
